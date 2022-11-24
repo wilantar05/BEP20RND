@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "onPreTransferCheck",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "setTokenOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IPinkAntiBot.sol": "IPinkAntiBot"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IPinkAntiBot.sol": {
+			"keccak256": "0x1a476853e3c734840710efd1077f3c60acf5ac718d7997947e067178ca11af1c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e746183b6cfcb2bc397598cc0c48e362a683efbc08bf33afbe6d3e7966eb24ec",
+				"dweb:/ipfs/QmXLkgWnGct7tXuQjaRB3k2i2T9DYmCGBmg2T1GNvHvmaG"
+			]
+		}
+	},
+	"version": 1
+}
